@@ -27,6 +27,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 151002
+--- !u!114 &-8686895818312031426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/tawerna_fmod/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639129774328655501
+  FileSizes:
+  - Name: Desktop
+    Value: 1272
+  Exists: 1
 --- !u!114 &-8062529214074056160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,6 +205,115 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &-4509344985312715433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/outside
+  Guid:
+    Data1: -521206149
+    Data2: 1079728910
+    Data3: -163244114
+    Data4: -1118554178
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4336022610654957776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_crowd
+  m_EditorClassIdentifier: 
+  Path: event:/amb_crowd
+  Guid:
+    Data1: -1540224984
+    Data2: 1283283018
+    Data3: 1737286278
+    Data4: 488158592
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 75520
+--- !u!114 &-2448065140846411283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/inside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/inside
+  Guid:
+    Data1: -629393858
+    Data2: 1166084072
+    Data3: 568772774
+    Data4: -1865230865
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1450615114963985935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/doors
+  m_EditorClassIdentifier: 
+  Path: event:/doors
+  Guid:
+    Data1: 113955031
+    Data2: 1168447820
+    Data3: -1266357090
+    Data4: 1783710021
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4208629618291589573}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &-1184529868827234573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +368,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 124000
+--- !u!114 &-296888235998184509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/foot_steps
+  m_EditorClassIdentifier: 
+  Path: event:/foot_steps
+  Guid:
+    Data1: 1086345061
+    Data2: 1112747235
+    Data3: -2013676151
+    Data4: 829302783
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6744509137808792696}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,35 +409,68 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8062529214074056160}
-  - {fileID: 3691852727100069699}
+  - {fileID: -8686895818312031426}
+  - {fileID: 4994624942986196989}
   EditorEvents:
-  - {fileID: 7243129052890775455}
-  - {fileID: -6055802187605203422}
-  - {fileID: -6782509276199021002}
-  - {fileID: -9045052132772501140}
-  - {fileID: -6544313143161640165}
-  - {fileID: 3744665441600476288}
+  - {fileID: -4336022610654957776}
+  - {fileID: -2448065140846411283}
+  - {fileID: 4557693119034011754}
+  - {fileID: -296888235998184509}
+  - {fileID: -4509344985312715433}
+  - {fileID: 1436554812765080501}
+  - {fileID: -1450615114963985935}
+  - {fileID: 3733700368155707767}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 3691852727100069699}
+  - {fileID: 4994624942986196989}
   StringsBanks:
-  - {fileID: -8062529214074056160}
+  - {fileID: -8686895818312031426}
   cacheVersion: 131859
-  cacheTime: 639114144165702479
+  cacheTime: 639129774328655501
   SerializableEventsDict:
   - key: event:/amb_crowd
     index: 0
-  - key: event:/amb_fireplace
+  - key: snapshot:/inside
     index: 1
-  - key: event:/foot_steps
+  - key: event:/amb_fireplace
     index: 2
-  - key: event:/music
+  - key: event:/foot_steps
     index: 3
-  - key: event:/doors
+  - key: snapshot:/outside
     index: 4
-  - key: event:/amb_forest
+  - key: event:/music
     index: 5
+  - key: event:/doors
+    index: 6
+  - key: event:/amb_forest
+    index: 7
+--- !u!114 &1436554812765080501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music
+  m_EditorClassIdentifier: 
+  Path: event:/music
+  Guid:
+    Data1: -517269351
+    Data2: 1258085920
+    Data3: -2099004524
+    Data4: -362430281
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 151002
 --- !u!114 &1935327081168053447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,6 +564,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 6221248
   Exists: 1
+--- !u!114 &3733700368155707767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_forest
+  m_EditorClassIdentifier: 
+  Path: event:/amb_forest
+  Guid:
+    Data1: 486116825
+    Data2: 1222642614
+    Data3: 1491408285
+    Data4: -372065426
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 124000
 --- !u!114 &3744665441600476288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,6 +637,79 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1100
+  Exists: 1
+--- !u!114 &4208629618291589573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/doors/doorss
+  m_EditorClassIdentifier: 
+  Name: doorss
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2081461877
+    data2: 1844139474
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - open
+  - close
+  Exists: 1
+--- !u!114 &4557693119034011754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_fireplace
+  m_EditorClassIdentifier: 
+  Path: event:/amb_fireplace
+  Guid:
+    Data1: -651498427
+    Data2: 1341077922
+    Data3: -1066722910
+    Data4: -692442229
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115052
+--- !u!114 &4994624942986196989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/tawerna_fmod/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639129774328645225
+  FileSizes:
+  - Name: Desktop
+    Value: 6223360
   Exists: 1
 --- !u!114 &5215516804816306186
 MonoBehaviour:
@@ -475,6 +765,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 75520
+--- !u!114 &6744509137808792696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/foot_steps/steps_surface
+  m_EditorClassIdentifier: 
+  Name: steps_surface
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 956532150
+    data2: 2199980317
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - wood
+  - stone
+  - stairs
+  Exists: 1
 --- !u!114 &6759648476996304424
 MonoBehaviour:
   m_ObjectHideFlags: 0

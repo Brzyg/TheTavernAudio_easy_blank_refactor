@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: tawerna_fmod/tawerna.fspro
-  sourceBankPath: tawerna_fmod/Build
+  sourceProjectPath: Assets/tawerna_fmod/tawerna.fspro
+  sourceBankPath: Assets/tawerna_fmod/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
@@ -565,7 +565,7 @@ MonoBehaviour:
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131859
   HideSetupWizard: 1
-  LastEventReferenceScanVersion: 131617
+  LastEventReferenceScanVersion: 131859
   Platforms:
   - {fileID: -7113343091406021913}
   - {fileID: -7089121652980687421}
