@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{5f61199f-af1a-4b63-ab41-41c3cbb9926d}">
 		<property name="name">
-			<value>steps_surface</value>
+			<value>foot_steps</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bf45345f-1c19-4a32-92d6-c6f303ca96f1}</destination>
@@ -19,9 +19,9 @@
 			<value>3</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>wood</value>
-			<value>stone</value>
-			<value>stairs</value>
+			<value>Wood</value>
+			<value>Stone</value>
+			<value>Stairs</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

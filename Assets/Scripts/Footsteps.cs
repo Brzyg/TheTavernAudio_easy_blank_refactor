@@ -60,7 +60,7 @@ public class Footsteps : MonoBehaviour
         if (isMoving && IsGrounded())
         {
             // Ustawia interwał na podstawie tego, czy gracz biegnie.
-            float footstepInterval = isRunning ? 0.25f : 0.5f;
+            float footstepInterval = isRunning ? 0.25f : 0.4f;
 
             if (Time.time - lastFootstepTime > footstepInterval)
             {
@@ -153,8 +153,8 @@ public class Footsteps : MonoBehaviour
                 surfaceParameter = "Wood";
                 break;
 
-            case "Bed":
-                surfaceParameter = "Bed";
+            case "Stairs":
+                surfaceParameter = "Stairs";
                 break;
         }
 

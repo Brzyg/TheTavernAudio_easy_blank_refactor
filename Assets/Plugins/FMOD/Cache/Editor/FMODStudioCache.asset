@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: Assets/tawerna_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639129774328655501
+  lastModified: 639136729613863341
   FileSizes:
   - Name: Desktop
-    Value: 1272
+    Value: 1342
   Exists: 1
 --- !u!114 &-8062529214074056160
 MonoBehaviour:
@@ -150,6 +150,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 115052
+--- !u!114 &-5385140881726786678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/landing/foot_steps
+  m_EditorClassIdentifier: 
+  Name: foot_steps
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 956532150
+    data2: 2199980317
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Stone
+  - Stairs
+  Exists: 1
 --- !u!114 &-5302196527220030483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,6 +395,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 124000
+--- !u!114 &-652307135388419361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/landing
+  m_EditorClassIdentifier: 
+  Path: event:/landing
+  Guid:
+    Data1: -1341647391
+    Data2: 1176080091
+    Data3: -460902240
+    Data4: -408279580
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5385140881726786678}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-296888235998184509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,16 +472,18 @@ MonoBehaviour:
   - {fileID: 4557693119034011754}
   - {fileID: -296888235998184509}
   - {fileID: -4509344985312715433}
-  - {fileID: 1436554812765080501}
   - {fileID: -1450615114963985935}
   - {fileID: 3733700368155707767}
+  - {fileID: 641530555456303098}
+  - {fileID: 6189081109627787680}
+  - {fileID: -652307135388419361}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4994624942986196989}
   StringsBanks:
   - {fileID: -8686895818312031426}
   cacheVersion: 131859
-  cacheTime: 639129774328655501
+  cacheTime: 639136729613863341
   SerializableEventsDict:
   - key: event:/amb_crowd
     index: 0
@@ -438,13 +495,17 @@ MonoBehaviour:
     index: 3
   - key: snapshot:/outside
     index: 4
-  - key: event:/music
-    index: 5
   - key: event:/doors
-    index: 6
+    index: 5
   - key: event:/amb_forest
+    index: 6
+  - key: event:/amb_music
     index: 7
---- !u!114 &1436554812765080501
+  - key: event:/jumps
+    index: 8
+  - key: event:/landing
+    index: 9
+--- !u!114 &641530555456303098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -454,14 +515,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/music
+  m_Name: event:/amb_music
   m_EditorClassIdentifier: 
-  Path: event:/music
+  Path: event:/amb_music
   Guid:
-    Data1: -517269351
-    Data2: 1258085920
-    Data3: -2099004524
-    Data4: -362430281
+    Data1: -984671153
+    Data2: 1212539527
+    Data3: -1937436517
+    Data4: 2029209575
   Banks:
   - {fileID: 4994624942986196989}
   IsStream: 1
@@ -706,10 +767,10 @@ MonoBehaviour:
   Path: Assets/tawerna_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639129774328645225
+  lastModified: 639136729613843410
   FileSizes:
   - Name: Desktop
-    Value: 6223360
+    Value: 6391072
   Exists: 1
 --- !u!114 &5215516804816306186
 MonoBehaviour:
@@ -738,6 +799,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 115052
+--- !u!114 &5414812708218774773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/jumps/foot_steps
+  m_EditorClassIdentifier: 
+  Name: foot_steps
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 956532150
+    data2: 2199980317
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Stone
+  - Stairs
+  Exists: 1
 --- !u!114 &5876628618931578120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,6 +853,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 75520
+--- !u!114 &6189081109627787680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/jumps
+  m_EditorClassIdentifier: 
+  Path: event:/jumps
+  Guid:
+    Data1: -1037564750
+    Data2: 1075419556
+    Data3: 584316319
+    Data4: 1853282497
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5414812708218774773}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6744509137808792696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,9 +891,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/foot_steps/steps_surface
+  m_Name: parameter:/foot_steps/foot_steps
   m_EditorClassIdentifier: 
-  Name: steps_surface
+  Name: foot_steps
   StudioPath: 
   Min: 0
   Max: 2
@@ -788,9 +904,9 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 0
   Labels:
-  - wood
-  - stone
-  - stairs
+  - Wood
+  - Stone
+  - Stairs
   Exists: 1
 --- !u!114 &6759648476996304424
 MonoBehaviour:

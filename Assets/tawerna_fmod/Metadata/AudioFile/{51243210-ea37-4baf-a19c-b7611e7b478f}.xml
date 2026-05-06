@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{51243210-ea37-4baf-a19c-b7611e7b478f}">
+		<property name="assetPath">
+			<value>stone_land_5.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.35670833333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2eebaf08-c90d-4b6c-9fd2-4b0ec150384f}</destination>
+		</relationship>
+	</object>
+</objects>
