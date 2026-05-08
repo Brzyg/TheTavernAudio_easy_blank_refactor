@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerVCA" id="{222c94cf-fc98-443a-bbd2-cdfdcb6cba99}">
+		<property name="name">
+			<value>footSteps</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{dd3c7224-f703-4776-b118-b5bb0035eccd}</destination>
+		</relationship>
+	</object>
+</objects>
