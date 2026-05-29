@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a16dfe75-2ea6-4259-8c1e-f2163668e738}">
+		<property name="assetPath">
+			<value>mouse_squeak_5.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.8012916666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2eebaf08-c90d-4b6c-9fd2-4b0ec150384f}</destination>
+		</relationship>
+	</object>
+</objects>

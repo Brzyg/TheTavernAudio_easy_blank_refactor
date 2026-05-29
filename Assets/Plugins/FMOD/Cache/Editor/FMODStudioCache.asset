@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: Assets/tawerna_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639138411327726695
+  lastModified: 639156485983120689
   FileSizes:
   - Name: Desktop
-    Value: 1598
+    Value: 1642
   Exists: 1
 --- !u!114 &-8062529214074056160
 MonoBehaviour:
@@ -193,7 +193,7 @@ MonoBehaviour:
   Name: foot_steps
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 4
   Default: 0
   ID:
     data1: 956532150
@@ -204,6 +204,8 @@ MonoBehaviour:
   - Wood
   - Stone
   - Stairs
+  - Chandelier
+  - Bed
   Exists: 1
 --- !u!114 &-5302196527220030483
 MonoBehaviour:
@@ -314,6 +316,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 75520
+--- !u!114 &-3354472168792488540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mouse squeak
+  m_EditorClassIdentifier: 
+  Path: event:/mouse squeak
+  Guid:
+    Data1: 507868978
+    Data2: 1108056945
+    Data3: 450902945
+    Data4: -2140731690
+  Banks:
+  - {fileID: 4994624942986196989}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-2448065140846411283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,13 +506,14 @@ MonoBehaviour:
   - {fileID: 6189081109627787680}
   - {fileID: -652307135388419361}
   - {fileID: -6229245254047054049}
+  - {fileID: -3354472168792488540}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4994624942986196989}
   StringsBanks:
   - {fileID: -8686895818312031426}
   cacheVersion: 131859
-  cacheTime: 639138411327726695
+  cacheTime: 639156485983120689
   SerializableEventsDict:
   - key: event:/amb_crowd
     index: 0
@@ -505,6 +535,8 @@ MonoBehaviour:
     index: 8
   - key: event:/Doors
     index: 9
+  - key: event:/mouse squeak
+    index: 10
 --- !u!114 &486750562334796852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,10 +799,10 @@ MonoBehaviour:
   Path: Assets/tawerna_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639138411327706706
+  lastModified: 639156485983100494
   FileSizes:
   - Name: Desktop
-    Value: 6379712
+    Value: 6648704
   Exists: 1
 --- !u!114 &5215516804816306186
 MonoBehaviour:
@@ -814,7 +846,7 @@ MonoBehaviour:
   Name: foot_steps
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 4
   Default: 0
   ID:
     data1: 956532150
@@ -825,6 +857,8 @@ MonoBehaviour:
   - Wood
   - Stone
   - Stairs
+  - Chandelier
+  - Bed
   Exists: 1
 --- !u!114 &5876628618931578120
 MonoBehaviour:
@@ -896,7 +930,7 @@ MonoBehaviour:
   Name: foot_steps
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 4
   Default: 0
   ID:
     data1: 956532150
@@ -907,6 +941,8 @@ MonoBehaviour:
   - Wood
   - Stone
   - Stairs
+  - Chandelier
+  - Bed
   Exists: 1
 --- !u!114 &6759648476996304424
 MonoBehaviour:
